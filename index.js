@@ -10,7 +10,7 @@ document.querySelector("form").addEventListener('submit', function(event) {
     var entered_data = inputField.value.trim();
     console.log(entered_data);
     if (entered_data === '') {
-        alert("Cannot enter an empty field");
+        alert("Cannot enter an blank field");
         inputField.value = '';
         submitButton.disabled = true;
     } else {
